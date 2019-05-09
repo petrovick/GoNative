@@ -1,10 +1,21 @@
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View, Button } from "react-native";
+import {
+  Platform,
+  StyleSheet,
+  Text,
+  View,
+  Button,
+  Platform
+} from "react-native";
 import Todo from "./components/todo";
 
-const todos = ["Fazer café", "Estudar GoNative!"];
+import "./config/ReactotronConfig";
+import "./config/DevToolsConfig";
+import { bold } from "ansi-colors";
 
 export default class App extends Component {
+  componentDidMount() {}
+
   state = {
     usuario: "Petrovick",
     todos: [{ id: 0, text: "Fazer café" }, { id: 1, text: "Estudar GoNative!" }]
@@ -19,21 +30,43 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>{this.state.usuario}</Text>
-        {this.state.todos.map(todo => (
-          <Todo key={todo.id} title={todo.text} />
-        ))}
-        <Button title="Adicionar todo" onPress={this.addTodo} />
+        {Platform.OS === "ios" ? <Text>iOS</Text> : <Text>Android</Text>}
+        <Todo style="Fazer café" />
+        <Todo style="Estudar o GoNative" />
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  text: {
+    ...Platform.select({
+      ios: {
+        fontWeight: "bold"
+      },
+      android: {
+        fontWeight: "bold"
+      }
+    })
+  },
   container: {
     flex: 1,
+    backgroundColor: "#333",
+    flexDirection: "row",
+    flexWrap: "wrap",
     justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#f5f5f5"
+    alignContent: "center"
+  },
+
+  box: {
+    width: 80,
+    height: 80,
+    backgroundColor: "#F00",
+    margin: 10,
+
+    transform: [{ rotateZ: "20deg" }]
+  },
+  boxText: {
+    color: "#FFFF"
   }
 });
