@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import {
-  View, FlatList, TextInput, TouchableOpacity, Text,
+  View, FlatList, TextInput, TouchableOpacity, Text, AsyncStorage,
 } from 'react-native';
 import api from '~/services/api';
 import Icon from 'react-native-vector-icons/FontAwesome';
@@ -17,17 +17,31 @@ export default class Repositories extends Component {
     data: [],
     error: '',
     loading: false,
-    orgaorepositorio: 'react-community/react-navigation',
+    orgaorepositorio: '',
     refreshing: false,
   };
 
-  componentDidMount() {}
+  async componentDidMount() {
+    // AsyncStorage.clear();
+    await this.listRepositories();
+  }
 
-  listRepositories = async () => {
+  refreshRepository = async () => {
+    this.setState({ refreshing: true });
+    this.setState({ data: [] });
+    const data = await AsyncStorage.getItem('@GitHub:repositories');
+    const dataParsed = JSON.parse(data);
+    this.setState({ data: dataParsed, refreshing: false });
+  };
+
+  searchRepository = async () => {
     try {
       const { orgaorepositorio } = this.state;
-
       const { data } = await api.get(`/repos/${orgaorepositorio}`);
+      await AsyncStorage.setItem(
+        '@GitHub:repositories',
+        JSON.stringify([...this.state.data, data]),
+      );
 
       this.setState({
         data: [...this.state.data, data],
@@ -35,6 +49,7 @@ export default class Repositories extends Component {
         refreshing: false,
       });
     } catch (err) {
+      console.tron.log(`Organizacao/Repositorio nao encontrado, ${err}`);
       this.setState({
         error: 'Organizacao/Repositorio nao encontrado',
         loading: false,
@@ -43,20 +58,28 @@ export default class Repositories extends Component {
     }
   };
 
-  renderRepositoryItem = ({ item }) => {
-    console.tron.log('item');
-    console.tron.log(item);
-    console.tron.log('item 2');
-    return <RepositoryItem repository={item} />;
+  listRepositories = async () => {
+    const data = await AsyncStorage.getItem('@GitHub:repositories');
+    if (data) {
+      this.setState({
+        data: JSON.parse(data),
+        loading: false,
+        refreshing: false,
+      });
+    }
   };
 
+  renderRepositoryItem = ({ item }) => <RepositoryItem repository={item} />;
+
   renderRepositoryList = () => {
-    const { data } = this.state;
+    const { data, refreshing } = this.state;
     return (
       <FlatList
         data={data}
         keyExtractor={item => String(item.id)}
         renderItem={this.renderRepositoryItem}
+        refreshing={refreshing}
+        onRefresh={this.refreshRepository}
       />
     );
   };
@@ -67,9 +90,9 @@ export default class Repositories extends Component {
         <View style={styles.boxSearch}>
           <TextInput
             placeholder="Organizacao/Repositorio"
-            onChange={text => this.setState({ orgaorepositorio: text })}
+            onChangeText={text => this.setState({ orgaorepositorio: text })}
           />
-          <TouchableOpacity onPress={this.listRepositories}>
+          <TouchableOpacity onPress={() => this.searchRepository()}>
             <Icon name="building" />
           </TouchableOpacity>
         </View>
