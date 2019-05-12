@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import PropTypes from 'prop-types';
 import styles from './styles';
 
-const RepositoryItem = () => (
+const RepositoryItem = ({ repository }) => (
   <View style={styles.container}>
     <Text style={styles.title}>{repository.full_name}</Text>
     <View style={styles.infoContainer}>

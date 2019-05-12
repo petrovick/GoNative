@@ -37,16 +37,16 @@ export default class Repositories extends Component {
     const username = await AsyncStorage.getItem('@GitHuber:username');
 
     const { data } = await api.get(`/users/${username}/repos`);
-    console.tron.log('data');
-    console.tron.log(data);
     this.setState({ data, loading: false, refreshing: false });
   };
   renderListItem = ({ item }) => {
-    <RepositoryItem repository={item} />;
+    return <RepositoryItem repository={item} />;
   };
 
   renderList = () => {
     const { data, refreshing } = this.state;
+    console.tron.log('renderList = () => {');
+    console.tron.log(data);
     try {
       return (
         <FlatList
