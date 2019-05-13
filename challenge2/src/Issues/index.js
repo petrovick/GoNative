@@ -11,6 +11,7 @@ import api from '~/services/api';
 export default class Issues extends Component {
   state = {
     issues: [],
+    issuesFiltered: [],
     issueSituations: ['Todas', 'Abertas', 'Fechadas'],
   };
 
@@ -22,35 +23,48 @@ export default class Issues extends Component {
     console.tron.log(data);
     this.setState({
       issues: data,
+      issuesFiltered: data,
     });
   }
 
-  renderIssueItem = ({ item }) => {
-    console.tron.log('renderIssueItem = ({ item }) => {');
-    console.tron.log(item);
-    return <IssueItem issue={item} />;
-  };
+  renderIssueItem = ({ item }) => <IssueItem issue={item} />;
 
   listIssues = () => {
-    const { issues } = this.state;
+    const { issuesFiltered } = this.state;
     return (
       <FlatList
-        data={issues}
+        data={issuesFiltered}
         keyExtractor={item => String(item.id)}
         renderItem={this.renderIssueItem}
       />
     );
   };
 
-  filterIssues(type) {}
+  filterIssues(type) {
+    console.tron.log(type);
+    const { issues } = this.state;
+    if (type === 'Abertas') {
+      const issuesfil = issues.filter(item => item.state == 'open');
+      console.tron.log(issuesfil);
+      this.setState({ issuesFiltered: issuesfil });
+    } else if (type === 'Fechadas') {
+      this.setState({ issuesFiltered: issues.filter(item => item.state == 'closed') });
+    } else {
+      this.setState({ issuesFiltered: issues });
+    }
+  }
 
   render() {
     const { issueSituations } = this.state;
     return (
       <View style={styles.container}>
-        <View style={styles.buttons}>
+        <View style={styles.containerButtons}>
           {issueSituations.map(item => (
-            <TouchableOpacity onPress={this.filterIssues(item)}>
+            <TouchableOpacity
+              style={styles.button}
+              key={item}
+              onPress={() => this.filterIssues(item)}
+            >
               <Text>{item}</Text>
             </TouchableOpacity>
           ))}

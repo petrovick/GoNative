@@ -89,11 +89,12 @@ export default class Repositories extends Component {
       <View style={styles.container}>
         <View style={styles.boxSearch}>
           <TextInput
+            style={styles.boxSearchInput}
             placeholder="Organizacao/Repositorio"
             onChangeText={text => this.setState({ orgaorepositorio: text })}
           />
-          <TouchableOpacity onPress={() => this.searchRepository()}>
-            <Icon name="building" />
+          <TouchableOpacity style={styles.boxSearchButton} onPress={() => this.searchRepository()}>
+            <Icon name="plus" />
           </TouchableOpacity>
         </View>
         {this.renderRepositoryList()}

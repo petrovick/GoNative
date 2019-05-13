@@ -22,8 +22,8 @@ class RepositoryItem extends Component {
       <View style={styles.container}>
         <Image style={styles.image} source={{ uri: repository.owner.avatar_url }} />
         <View style={styles.boxReposDetails}>
-          <Text>{repository.name}</Text>
-          <Text>{repository.owner.login}</Text>
+          <Text style={styles.nameText}>{repository.name}</Text>
+          <Text style={styles.loginText}>{repository.owner.login}</Text>
         </View>
         <View style={styles.icon}>
           <TouchableOpacity onPress={() => this.onRepositoryClick()}>
