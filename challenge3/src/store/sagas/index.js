@@ -3,7 +3,7 @@ import api from '~/services/api';
 
 import { Creators as UserActions, Types as UserTypes } from '../ducks/user';
 
-export default function* searchUser(action) {
+function* searchUser(action) {
   try {
     const { username } = action.payload;
     const response = yield call(api.get(), `/users/${username}`);
