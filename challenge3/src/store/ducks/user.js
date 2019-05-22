@@ -38,10 +38,10 @@ export default function user(state = INITIAL_STATE, action) {
  */
 
 export const Creators = {
-  userSearchRequest: username => ({
+  userSearchRequest: data => ({
     type: Types.SEARCH_REQUEST,
     payload: {
-      username,
+      data,
     },
   }),
   userSearchSuccess: data => ({
