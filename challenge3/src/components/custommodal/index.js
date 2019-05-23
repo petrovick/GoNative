@@ -1,24 +1,56 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {
-  Modal, Text, TouchableHighlight, View, Alert, TextInput,
-} from 'react-native';
+    Modal,
+    Text,
+    TouchableOpacity,
+    View,
+    Alert,
+    TextInput
+} from "react-native";
+import styles from "./styles";
 
-const CustomModal = ({ modalVisible, setModalVisible, onUsernameType }) => (
-  <View style={{ marginTop: 22 }}>
-    <Modal animationType="slide" transparent={false} visible={modalVisible}>
-      <View style={{ marginTop: 22 }}>
-        <View>
-          <TextInput onChange={e => onUsernameType(e)} />
-          <TouchableHighlight
-            onPress={() => {
-              setModalVisible();
-            }}
-          >
-            <Text>Hide Modal</Text>
-          </TouchableHighlight>
+const CustomModal = ({
+    modalVisible,
+    salvarModal,
+    onUsernameType,
+    fecharModal
+}) => (
+    <Modal
+        transparent
+        animationType="slide"
+        transparent={false}
+        visible={modalVisible}
+        animationType="slide"
+    >
+        <View style={styles.container}>
+            <View style={styles.contentContainer}>
+                <TextInput
+                    style={styles.input}
+                    onChangeText={onUsernameType}
+                    placeholderTextColor={styles.placeholder.color}
+                />
+
+                <View style={styles.buttonContainerView}>
+                    <TouchableOpacity
+                        style={[styles.buttonContainer, styles.save]}
+                        onPress={() => {
+                            salvarModal();
+                        }}
+                    >
+                        <Text style={styles.buttonText}>Salvar</Text>
+                    </TouchableOpacity>
+
+                    <TouchableOpacity
+                        style={[styles.buttonContainer, styles.cancel]}
+                        onPress={() => {
+                            fecharModal();
+                        }}
+                    >
+                        <Text style={styles.buttonText}>Fechar</Text>
+                    </TouchableOpacity>
+                </View>
+            </View>
         </View>
-      </View>
     </Modal>
-  </View>
 );
 export default CustomModal;
