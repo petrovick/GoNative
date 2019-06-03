@@ -3,11 +3,9 @@ import Immutable from "seamless-immutable";
 
 /**Actions Types && Creators */
 const { Types, Creators } = createActions({
-  loadRequest: ["category"],
-  loadSuccess: ["data"],
-  loadFailure: null,
-
-  setSelectedCategory: ["category"]
+  loadCatRequest: null,
+  loadCatSuccess: ["data"],
+  loadCatFailure: null
 });
 //O CODIGO ACIMA RESUME O CODIGO COMENTADO ABAIXO
 // Type: { LOAD_REQUEST, LOAD_SUCCESS, LOAD_FAILURE }
@@ -18,25 +16,21 @@ const { Types, Creators } = createActions({
  * loadFailure: () => ({type: 'LOAD_FAILURE'})
  */
 
-export const ProductsTypes = Types;
+export const CategoriesTypes = Types;
 export default Creators;
 
 /**Initial State */
 export const INITIAL_STATE = Immutable({
   data: [],
-  loading: false,
-  selectedCategory: null
+  loading: false
 });
 
 /**Reducer */
 export const reducer = createReducer(INITIAL_STATE, {
-  [Types.LOAD_REQUEST]: (state, { category }) => state.merge({ loading: true }),
-  [Types.LOAD_SUCCESS]: (state, { data }) =>
+  [Types.LOAD_CAT_REQUEST]: state => state.merge({ loading: true }),
+  [Types.LOAD_CAT_SUCCESS]: (state, { data }) =>
     state.merge({ data: data, loading: false }),
-  [Types.LOAD_FAILURE]: state => state.merge({ loading: false }),
-
-  [Types.SET_SELECTED_CATEGORY]: (state, { category }) =>
-    state.merge({ categorySelected: category })
+  [Types.LOAD_CAT_FAILURE]: state => state.merge({ loading: false })
 });
 
 //O CODIGO ACIMA RESUME O CODIGO COMENTADO ABAIXO

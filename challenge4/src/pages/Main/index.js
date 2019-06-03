@@ -2,6 +2,11 @@ import React, { Component } from "react";
 
 import { View, TouchableOpacity } from "react-native";
 
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import CategoriesActions from "~/store/ducks/categories";
+import ProductsActions from "~/store/ducks/products";
+
 import Products from "~/components/Products";
 
 import {
@@ -12,28 +17,33 @@ import {
   CategoryItemContainer
 } from "./styles";
 
-export default class Main extends Component {
-  state = {
-    Categories: [
-      { id: 1, title: "Camisetas" },
-      { id: 2, title: "Camisas" },
-      { id: 3, title: "Calcas" },
-      { id: 4, title: "Blusas" },
-      { id: 5, title: "Bones" },
-      { id: 6, title: "Casacos" }
-    ]
+class Main extends Component {
+  componentDidMount() {
+    const { loadCatRequest } = this.props;
+    loadCatRequest();
+  }
+
+  handleSelectCategory = category => {
+    //console.tron.log("cat pressed");
+    console.tron.log(this.props);
+    const { setSelectedCategory } = this.props;
+    setSelectedCategory(category);
   };
+
   render() {
-    const { Categories } = this.state;
+    const { categories } = this.props;
     return (
       <Container>
         <CategoryHeader>
           <CategoryList
             keyExtractor={item => String(item.id)}
             horizontal={true}
-            data={Categories}
+            data={categories.data}
             renderItem={({ item: category }) => (
-              <CategoryItemContainer>
+              <CategoryItemContainer
+                title=""
+                onPress={() => this.handleSelectCategory(category)}
+              >
                 <CategoryItemText>{category.title}</CategoryItemText>
               </CategoryItemContainer>
             )}
@@ -45,3 +55,16 @@ export default class Main extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  categories: state.categories,
+  products: state.products
+});
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators({ ...ProductsActions, ...CategoriesActions }, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Main);

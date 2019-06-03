@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-import { View, Text } from "react-native";
+import { View, Text, TouchableOpacity } from "react-native";
+import { withNavigation, navigattion } from "react-navigation";
 
 import {
   Container,
@@ -9,24 +10,35 @@ import {
   ProductBrand,
   ContainerText
 } from "./styles";
-
-export default class ProductItem extends Component {
+class ProductItem extends Component {
   componentDidMount() {
     const { product } = this.props;
     console.tron.log(product);
   }
+
+  handleProductClick = () => {
+    const { navigation, repository, product } = this.props;
+    navigation.navigate("Product", {
+      product: product
+    });
+  };
+
   render() {
     const { product } = this.props;
     return (
       <Container>
-        <ProductImage
-          source={{
-            uri: product.image
-          }}
-        />
-        <ProductName>{product.name}</ProductName>
-        <ProductBrand>{product.brand}</ProductBrand>
+        <TouchableOpacity onPress={this.handleProductClick}>
+          <ProductImage
+            source={{
+              uri: product.image
+            }}
+          />
+          <ProductName>{product.name}</ProductName>
+          <ProductBrand>{product.brand}</ProductBrand>
+        </TouchableOpacity>
       </Container>
     );
   }
 }
+
+export default withNavigation(ProductItem);

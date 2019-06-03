@@ -6,9 +6,7 @@ export const Container = styled.View`
 
 export const ContainerProducts = styled.FlatList.attrs({
   columnWrapperStyle: {
+    marginHorizontal: 10,
     justifyContent: "space-between"
   }
-})`
-  margin-left: 10px;
-  margin-right: 10px;
-`;
+})``;

@@ -21,7 +21,8 @@ export const CategoryList = styled.FlatList.attrs({
 export const CategoryItemText = styled.Text`
   color: #fff;
 `;
-export const CategoryItemContainer = styled.View`
+
+export const CategoryItemContainer = styled.TouchableOpacity`
   margin-left: 20px;
   align-content: center;
   justify-content: center;

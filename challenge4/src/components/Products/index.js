@@ -2,11 +2,15 @@ import React, { Component } from "react";
 
 import { View } from "react-native";
 
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
+import ProductsActions from "~/store/ducks/products";
+
 import { Container, ContainerProducts } from "./styles";
 
 import ProductItem from "./ProductItem";
 
-export default class Products extends Component {
+class Products extends Component {
   state = {
     products: [
       {
@@ -43,13 +47,18 @@ export default class Products extends Component {
       }
     ]
   };
+
+  componentDidMount() {
+    const { loadRequest } = this.props;
+    loadRequest();
+  }
   render() {
-    const { products } = this.state;
+    const { products } = this.props;
     return (
       <Container>
         <ContainerProducts
           keyExtractor={item => String(item.id)}
-          data={products}
+          data={products.data}
           numColumns={2}
           renderItem={({ item: product }) => <ProductItem product={product} />}
         />
@@ -57,3 +66,15 @@ export default class Products extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  products: state.products
+});
+
+const mapDispatchToProps = dispatch =>
+  bindActionCreators(ProductsActions, dispatch);
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Products);
