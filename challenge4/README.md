@@ -1,23 +1,24 @@
-#Running the app
+## Running the app
+
 The below command will install all required dependencies
 
 ```bash
 yarn
 ```
 
-#ANDROID
+## ANDROID
 
 ```bash
 react-native run-android
 ```
 
-#iOS
+## iOS
 
 ```bash
 react-native run-ios --simulator="iPhone 6s Plus"
 ```
 
-#App Images
+## App Images
 
 ![Tela App](https://github.com/petrovick/GoNative/blob/master/challenge4/assets/appimages/screen1.png?raw=truenge4/assets/appimages/screen1.png)
 
