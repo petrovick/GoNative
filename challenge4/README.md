@@ -1,4 +1,5 @@
-###Running the app
+#Running the app
+The below command will install all required dependencies
 
 ```bash
 yarn
