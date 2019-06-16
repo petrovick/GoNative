@@ -1,0 +1,300 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RemoteCommandHandler"
+- "RemoteCommandProtocol"
+- "PlayBackCommand"
+- "ChangePlaybackPositionCommand"
+- "SkipIntervalCommand"
+- "RemoteCommand"
+provides-nominal:
+- "13RNTrackPlayer21RemoteCommandProtocolP"
+- "13RNTrackPlayer15PlayBackCommandV"
+- "13RNTrackPlayer29ChangePlaybackPositionCommandV"
+- "13RNTrackPlayer19SkipIntervalCommandV"
+- "13RNTrackPlayer13RemoteCommandO"
+provides-member:
+- ["13RNTrackPlayer21RemoteCommandProtocolP", ""]
+- ["13RNTrackPlayer15PlayBackCommandV", ""]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", ""]
+- ["13RNTrackPlayer19SkipIntervalCommandV", ""]
+- ["13RNTrackPlayer13RemoteCommandO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "ChangePlaybackPositionCommand"
+- "KeyPath"
+- "MPChangePlaybackPositionCommand"
+- "MPRemoteCommand"
+- "MPRemoteCommandCenter"
+- "MPRemoteCommandEvent"
+- "MPRemoteCommandHandlerStatus"
+- "MPSkipIntervalCommand"
+- "NSNumber"
+- "PlayBackCommand"
+- "RemoteCommand"
+- "RemoteCommandController"
+- "RemoteCommandHandler"
+- "RemoteCommandProtocol"
+- "SkipIntervalCommand"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["s7CVarArgP", "changePlaybackPositionCommand"]
+- ["s7CVarArgP", "nextTrackCommand"]
+- ["s7CVarArgP", "pauseCommand"]
+- ["s7CVarArgP", "playCommand"]
+- !private ["s7CVarArgP", "preferredIntervals"]
+- ["s7CVarArgP", "previousTrackCommand"]
+- !private ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", "skipBackwardCommand"]
+- ["s7CVarArgP", "skipForwardCommand"]
+- ["s7CVarArgP", "stopCommand"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "togglePlayPauseCommand"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "ChangePlaybackPositionCommand"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "Command"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "KeyPath"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "MPChangePlaybackPositionCommand"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "MPRemoteCommandCenter"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "RemoteCommandController"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "RemoteCommandHandler"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "String"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "changePlaybackPosition"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "commandKeyPath"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "deinit"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "handlerKeyPath"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "id"]
+- ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "init"]
+- ["s28CustomDebugStringConvertibleP", "changePlaybackPositionCommand"]
+- ["s28CustomDebugStringConvertibleP", "nextTrackCommand"]
+- ["s28CustomDebugStringConvertibleP", "pauseCommand"]
+- ["s28CustomDebugStringConvertibleP", "playCommand"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredIntervals"]
+- ["s28CustomDebugStringConvertibleP", "previousTrackCommand"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- ["s28CustomDebugStringConvertibleP", "skipBackwardCommand"]
+- ["s28CustomDebugStringConvertibleP", "skipForwardCommand"]
+- ["s28CustomDebugStringConvertibleP", "stopCommand"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "togglePlayPauseCommand"]
+- ["s23CustomStringConvertibleP", "changePlaybackPositionCommand"]
+- ["s23CustomStringConvertibleP", "nextTrackCommand"]
+- ["s23CustomStringConvertibleP", "pauseCommand"]
+- ["s23CustomStringConvertibleP", "playCommand"]
+- !private ["s23CustomStringConvertibleP", "preferredIntervals"]
+- ["s23CustomStringConvertibleP", "previousTrackCommand"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "skipBackwardCommand"]
+- ["s23CustomStringConvertibleP", "skipForwardCommand"]
+- ["s23CustomStringConvertibleP", "stopCommand"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "togglePlayPauseCommand"]
+- ["SQ", "changePlaybackPositionCommand"]
+- ["SQ", "nextTrackCommand"]
+- ["SQ", "pauseCommand"]
+- ["SQ", "playCommand"]
+- !private ["SQ", "preferredIntervals"]
+- ["SQ", "previousTrackCommand"]
+- !private ["SQ", "shared"]
+- ["SQ", "skipBackwardCommand"]
+- ["SQ", "skipForwardCommand"]
+- ["SQ", "stopCommand"]
+- !private ["SQ", "subscript"]
+- ["SQ", "togglePlayPauseCommand"]
+- ["SH", "changePlaybackPositionCommand"]
+- ["SH", "nextTrackCommand"]
+- ["SH", "pauseCommand"]
+- ["SH", "playCommand"]
+- !private ["SH", "preferredIntervals"]
+- ["SH", "previousTrackCommand"]
+- !private ["SH", "shared"]
+- ["SH", "skipBackwardCommand"]
+- ["SH", "skipForwardCommand"]
+- ["SH", "stopCommand"]
+- !private ["SH", "subscript"]
+- ["SH", "togglePlayPauseCommand"]
+- !private ["So15MPRemoteCommandC", "preferredIntervals"]
+- ["So21MPRemoteCommandCenterC", "changePlaybackPositionCommand"]
+- ["So21MPRemoteCommandCenterC", "nextTrackCommand"]
+- ["So21MPRemoteCommandCenterC", "pauseCommand"]
+- ["So21MPRemoteCommandCenterC", "playCommand"]
+- ["So21MPRemoteCommandCenterC", "previousTrackCommand"]
+- !private ["So21MPRemoteCommandCenterC", "shared"]
+- ["So21MPRemoteCommandCenterC", "skipBackwardCommand"]
+- ["So21MPRemoteCommandCenterC", "skipForwardCommand"]
+- ["So21MPRemoteCommandCenterC", "stopCommand"]
+- !private ["So21MPRemoteCommandCenterC", "subscript"]
+- ["So21MPRemoteCommandCenterC", "togglePlayPauseCommand"]
+- !private ["So21MPSkipIntervalCommandC", "preferredIntervals"]
+- ["So8NSObjectC", "changePlaybackPositionCommand"]
+- ["So8NSObjectC", "nextTrackCommand"]
+- ["So8NSObjectC", "pauseCommand"]
+- ["So8NSObjectC", "playCommand"]
+- !private ["So8NSObjectC", "preferredIntervals"]
+- ["So8NSObjectC", "previousTrackCommand"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "skipBackwardCommand"]
+- ["So8NSObjectC", "skipForwardCommand"]
+- ["So8NSObjectC", "stopCommand"]
+- !private ["So8NSObjectC", "subscript"]
+- ["So8NSObjectC", "togglePlayPauseCommand"]
+- ["So8NSObjectP", "changePlaybackPositionCommand"]
+- ["So8NSObjectP", "nextTrackCommand"]
+- ["So8NSObjectP", "pauseCommand"]
+- ["So8NSObjectP", "playCommand"]
+- !private ["So8NSObjectP", "preferredIntervals"]
+- ["So8NSObjectP", "previousTrackCommand"]
+- !private ["So8NSObjectP", "shared"]
+- ["So8NSObjectP", "skipBackwardCommand"]
+- ["So8NSObjectP", "skipForwardCommand"]
+- ["So8NSObjectP", "stopCommand"]
+- !private ["So8NSObjectP", "subscript"]
+- ["So8NSObjectP", "togglePlayPauseCommand"]
+- ["13RNTrackPlayer15PlayBackCommandV", "Command"]
+- ["13RNTrackPlayer15PlayBackCommandV", "KeyPath"]
+- ["13RNTrackPlayer15PlayBackCommandV", "MPRemoteCommand"]
+- ["13RNTrackPlayer15PlayBackCommandV", "MPRemoteCommandCenter"]
+- ["13RNTrackPlayer15PlayBackCommandV", "PlayBackCommand"]
+- ["13RNTrackPlayer15PlayBackCommandV", "RemoteCommandController"]
+- ["13RNTrackPlayer15PlayBackCommandV", "RemoteCommandHandler"]
+- ["13RNTrackPlayer15PlayBackCommandV", "String"]
+- ["13RNTrackPlayer15PlayBackCommandV", "commandKeyPath"]
+- ["13RNTrackPlayer15PlayBackCommandV", "deinit"]
+- ["13RNTrackPlayer15PlayBackCommandV", "handlerKeyPath"]
+- ["13RNTrackPlayer15PlayBackCommandV", "id"]
+- ["13RNTrackPlayer15PlayBackCommandV", "init"]
+- ["13RNTrackPlayer15PlayBackCommandV", "nextTrack"]
+- ["13RNTrackPlayer15PlayBackCommandV", "pause"]
+- ["13RNTrackPlayer15PlayBackCommandV", "play"]
+- ["13RNTrackPlayer15PlayBackCommandV", "previousTrack"]
+- ["13RNTrackPlayer15PlayBackCommandV", "stop"]
+- ["13RNTrackPlayer15PlayBackCommandV", "togglePlayPause"]
+- ["13RNTrackPlayer13RemoteCommandO", "NSNumber"]
+- ["13RNTrackPlayer13RemoteCommandO", "RemoteCommand"]
+- ["13RNTrackPlayer13RemoteCommandO", "all"]
+- ["13RNTrackPlayer13RemoteCommandO", "changePlaybackPosition"]
+- ["13RNTrackPlayer13RemoteCommandO", "next"]
+- ["13RNTrackPlayer13RemoteCommandO", "pause"]
+- ["13RNTrackPlayer13RemoteCommandO", "play"]
+- ["13RNTrackPlayer13RemoteCommandO", "previous"]
+- ["13RNTrackPlayer13RemoteCommandO", "skipBackward"]
+- ["13RNTrackPlayer13RemoteCommandO", "skipForward"]
+- ["13RNTrackPlayer13RemoteCommandO", "stop"]
+- ["13RNTrackPlayer13RemoteCommandO", "togglePlayPause"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleChangePlaybackPositionCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleNextTrackCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePauseCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePlayCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePreviousTrackCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipBackwardCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipForwardCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleStopCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleTogglePlayPauseCommand"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "ChangePlaybackPositionCommand"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "Command"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "KeyPath"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "MPRemoteCommand"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "MPRemoteCommandCenter"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "PlayBackCommand"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "RemoteCommandController"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "RemoteCommandHandler"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "SkipIntervalCommand"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "String"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", ""]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "commandKeyPath"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "handlerKeyPath"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "id"]
+- ["13RNTrackPlayer21RemoteCommandProtocolP", "init"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "Command"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "KeyPath"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "MPRemoteCommandCenter"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "MPSkipIntervalCommand"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "NSNumber"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "RemoteCommandController"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "RemoteCommandHandler"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "SkipIntervalCommand"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "String"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "commandKeyPath"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "deinit"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "handlerKeyPath"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "id"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "init"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "set"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "skipBackward"]
+- ["13RNTrackPlayer19SkipIntervalCommandV", "skipForward"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "changePlaybackPositionCommand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "nextTrackCommand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pauseCommand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playCommand"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredIntervals"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "previousTrackCommand"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "skipBackwardCommand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "skipForwardCommand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stopCommand"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "togglePlayPauseCommand"]
+depends-nominal:
+- "s7CVarArgP"
+- "13RNTrackPlayer29ChangePlaybackPositionCommandV"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "So15MPRemoteCommandC"
+- "So21MPRemoteCommandCenterC"
+- !private "So21MPSkipIntervalCommandC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "13RNTrackPlayer15PlayBackCommandV"
+- "13RNTrackPlayer13RemoteCommandO"
+- "13RNTrackPlayer23RemoteCommandControllerC"
+- "13RNTrackPlayer21RemoteCommandProtocolP"
+- "13RNTrackPlayer19SkipIntervalCommandV"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d7d4df7dc49c6cfe631e20ddea533e7"

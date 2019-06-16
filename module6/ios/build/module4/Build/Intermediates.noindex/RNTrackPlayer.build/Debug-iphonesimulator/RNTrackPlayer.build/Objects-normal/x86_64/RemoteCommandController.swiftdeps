@@ -1,0 +1,457 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RemoteCommandable"
+- "RemoteCommandController"
+provides-nominal:
+- "13RNTrackPlayer17RemoteCommandableP"
+- "13RNTrackPlayer23RemoteCommandControllerC"
+provides-member:
+- ["13RNTrackPlayer17RemoteCommandableP", ""]
+- ["13RNTrackPlayer23RemoteCommandControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- !private "APError"
+- "AssignmentPrecedence"
+- "AudioPlayer"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "ChangePlaybackPositionCommand"
+- !private "Double"
+- "Error"
+- !private "MPChangePlaybackPositionCommandEvent"
+- "MPRemoteCommandCenter"
+- "MPRemoteCommandEvent"
+- "MPRemoteCommandHandlerStatus"
+- !private "MPSkipIntervalCommand"
+- !private "PlayBackCommand"
+- !private "QueuedAudioPlayer"
+- "RemoteCommand"
+- "RemoteCommandController"
+- "RemoteCommandHandler"
+- "RemoteCommandProtocol"
+- "RemoteCommandable"
+- !private "SkipIntervalCommand"
+- "String"
+depends-member:
+- !private ["13RNTrackPlayer7APErrorV", "LoadError"]
+- !private ["13RNTrackPlayer7APErrorV", "QueueError"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "currentTime"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "next"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "pause"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "play"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "previous"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "seek"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "stop"]
+- !private ["13RNTrackPlayer23AVPlayerWrapperDelegateP", "togglePlaying"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "first"]
+- !private ["Sa", "forEach"]
+- !private ["13RNTrackPlayer05AudioB0C", "currentTime"]
+- !private ["13RNTrackPlayer05AudioB0C", "next"]
+- !private ["13RNTrackPlayer05AudioB0C", "pause"]
+- !private ["13RNTrackPlayer05AudioB0C", "play"]
+- !private ["13RNTrackPlayer05AudioB0C", "previous"]
+- !private ["13RNTrackPlayer05AudioB0C", "seek"]
+- !private ["13RNTrackPlayer05AudioB0C", "stop"]
+- !private ["13RNTrackPlayer05AudioB0C", "togglePlaying"]
+- !private ["SK", "first"]
+- !private ["SK", "forEach"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "command"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEnabled"]
+- !private ["s7CVarArgP", "positionTime"]
+- !private ["s7CVarArgP", "preferredIntervals"]
+- !private ["s7CVarArgP", "removeTarget"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "changePlaybackPosition"]
+- !private ["13RNTrackPlayer29ChangePlaybackPositionCommandV", "deinit"]
+- !private ["Sl", "first"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "command"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "positionTime"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredIntervals"]
+- !private ["s28CustomDebugStringConvertibleP", "removeTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "forEach"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "command"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEnabled"]
+- !private ["s23CustomStringConvertibleP", "positionTime"]
+- !private ["s23CustomStringConvertibleP", "preferredIntervals"]
+- !private ["s23CustomStringConvertibleP", "removeTarget"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["Se", "first"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["Sd", "init"]
+- !private ["SE", "first"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "command"]
+- !private ["SQ", "commandFailed"]
+- !private ["SQ", "first"]
+- !private ["SQ", "forEach"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEnabled"]
+- !private ["SQ", "noSuchContent"]
+- !private ["SQ", "positionTime"]
+- !private ["SQ", "preferredIntervals"]
+- !private ["SQ", "removeTarget"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- ["s5ErrorP", "invalidIndex"]
+- ["s5ErrorP", "invalidSourceUrl"]
+- ["s5ErrorP", "noNextItem"]
+- ["s5ErrorP", "noPreviousItem"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "addTarget"]
+- !private ["SH", "command"]
+- !private ["SH", "commandFailed"]
+- !private ["SH", "first"]
+- !private ["SH", "forEach"]
+- !private ["SH", "init"]
+- !private ["SH", "isEnabled"]
+- !private ["SH", "noSuchContent"]
+- !private ["SH", "positionTime"]
+- !private ["SH", "preferredIntervals"]
+- !private ["SH", "removeTarget"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- ["13RNTrackPlayer7APErrorV9LoadErrorO", "invalidSourceUrl"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So36MPChangePlaybackPositionCommandEventC", "positionTime"]
+- !private ["So15MPRemoteCommandC", "addTarget"]
+- !private ["So15MPRemoteCommandC", "isEnabled"]
+- !private ["So15MPRemoteCommandC", "preferredIntervals"]
+- !private ["So15MPRemoteCommandC", "removeTarget"]
+- !private ["So21MPRemoteCommandCenterC", "shared"]
+- !private ["So21MPRemoteCommandCenterC", "subscript"]
+- !private ["So20MPRemoteCommandEventC", "command"]
+- !private ["So20MPRemoteCommandEventC", "positionTime"]
+- !private ["So28MPRemoteCommandHandlerStatusV", "commandFailed"]
+- !private ["So28MPRemoteCommandHandlerStatusV", "noSuchContent"]
+- !private ["So28MPRemoteCommandHandlerStatusV", "success"]
+- !private ["So21MPSkipIntervalCommandC", "preferredIntervals"]
+- !private ["SM", "first"]
+- !private ["SM", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectC", "command"]
+- !private ["So8NSObjectC", "isEnabled"]
+- !private ["So8NSObjectC", "positionTime"]
+- !private ["So8NSObjectC", "preferredIntervals"]
+- !private ["So8NSObjectC", "removeTarget"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "subscript"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "command"]
+- !private ["So8NSObjectP", "isEnabled"]
+- !private ["So8NSObjectP", "positionTime"]
+- !private ["So8NSObjectP", "preferredIntervals"]
+- !private ["So8NSObjectP", "removeTarget"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "subscript"]
+- !private ["Sj", "init"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "deinit"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "nextTrack"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "pause"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "play"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "previousTrack"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "stop"]
+- !private ["13RNTrackPlayer15PlayBackCommandV", "togglePlayPause"]
+- ["13RNTrackPlayer7APErrorV10QueueErrorO", "invalidIndex"]
+- ["13RNTrackPlayer7APErrorV10QueueErrorO", "noNextItem"]
+- ["13RNTrackPlayer7APErrorV10QueueErrorO", "noPreviousItem"]
+- !private ["13RNTrackPlayer011QueuedAudioB0C", "next"]
+- !private ["13RNTrackPlayer011QueuedAudioB0C", "previous"]
+- !private ["Sk", "first"]
+- !private ["Sk", "forEach"]
+- !private ["Sm", "first"]
+- !private ["Sm", "forEach"]
+- !private ["SY", "commandFailed"]
+- !private ["SY", "noSuchContent"]
+- !private ["SY", "success"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "all"]
+- ["13RNTrackPlayer13RemoteCommandO", "changePlaybackPosition"]
+- ["13RNTrackPlayer13RemoteCommandO", "next"]
+- ["13RNTrackPlayer13RemoteCommandO", "pause"]
+- ["13RNTrackPlayer13RemoteCommandO", "play"]
+- ["13RNTrackPlayer13RemoteCommandO", "previous"]
+- ["13RNTrackPlayer13RemoteCommandO", "skipBackward"]
+- ["13RNTrackPlayer13RemoteCommandO", "skipForward"]
+- ["13RNTrackPlayer13RemoteCommandO", "stop"]
+- ["13RNTrackPlayer13RemoteCommandO", "togglePlayPause"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "APError"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "AudioPlayer"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "ChangePlaybackPositionCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "Double"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "Error"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "MPChangePlaybackPositionCommandEvent"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "MPRemoteCommandCenter"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "MPRemoteCommandEvent"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "MPRemoteCommandHandlerStatus"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "MPSkipIntervalCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "PlayBackCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "QueuedAudioPlayer"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "RemoteCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "RemoteCommandHandler"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "RemoteCommandProtocol"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "SkipIntervalCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "String"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "audioPlayer"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "center"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "commandTargetPointers"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "disable"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "disableCommand"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "enable"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "enableCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "getRemoteCommandHandlerStatus"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleChangePlaybackPositionCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleChangePlaybackPositionCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleChangePlaybackPositionCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleNextTrackCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleNextTrackCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleNextTrackCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePauseCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handlePauseCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePauseCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePlayCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handlePlayCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePlayCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePreviousTrackCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handlePreviousTrackCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handlePreviousTrackCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipBackwardCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipBackwardCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipBackwardDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipForwardCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipForwardCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleSkipForwardCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleStopCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleStopCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleStopCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleTogglePlayPauseCommand"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "handleTogglePlayPauseCommand.storage"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "handleTogglePlayPauseCommandDefault"]
+- ["13RNTrackPlayer23RemoteCommandControllerC", "init"]
+- !private ["13RNTrackPlayer23RemoteCommandControllerC", "subscript"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "changePlaybackPosition"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "commandKeyPath"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "handlerKeyPath"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "id"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "nextTrack"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "pause"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "play"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "previousTrack"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "set"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "skipBackward"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "skipForward"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "stop"]
+- !private ["13RNTrackPlayer21RemoteCommandProtocolP", "togglePlayPause"]
+- ["13RNTrackPlayer17RemoteCommandableP", "RemoteCommand"]
+- ["13RNTrackPlayer17RemoteCommandableP", "getCommands"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "first"]
+- !private ["ST", "forEach"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["13RNTrackPlayer19SkipIntervalCommandV", "deinit"]
+- !private ["13RNTrackPlayer19SkipIntervalCommandV", "set"]
+- !private ["13RNTrackPlayer19SkipIntervalCommandV", "skipBackward"]
+- !private ["13RNTrackPlayer19SkipIntervalCommandV", "skipForward"]
+- !private ["Sx", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "command"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "positionTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredIntervals"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "13RNTrackPlayer7APErrorV"
+- !private "13RNTrackPlayer23AVPlayerWrapperDelegateP"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "13RNTrackPlayer05AudioB0C"
+- !private "SK"
+- !private "SB"
+- !private "s7CVarArgP"
+- !private "13RNTrackPlayer29ChangePlaybackPositionCommandV"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "SF"
+- !private "SH"
+- "13RNTrackPlayer7APErrorV9LoadErrorO"
+- !private "s25LosslessStringConvertibleP"
+- !private "So36MPChangePlaybackPositionCommandEventC"
+- !private "So15MPRemoteCommandC"
+- !private "So21MPRemoteCommandCenterC"
+- !private "So20MPRemoteCommandEventC"
+- !private "So28MPRemoteCommandHandlerStatusV"
+- !private "So21MPSkipIntervalCommandC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "13RNTrackPlayer15PlayBackCommandV"
+- "13RNTrackPlayer7APErrorV10QueueErrorO"
+- !private "13RNTrackPlayer011QueuedAudioB0C"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "13RNTrackPlayer13RemoteCommandO"
+- "13RNTrackPlayer23RemoteCommandControllerC"
+- !private "13RNTrackPlayer21RemoteCommandProtocolP"
+- "13RNTrackPlayer17RemoteCommandableP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "13RNTrackPlayer19SkipIntervalCommandV"
+- !private "Sx"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f9c38ad98d14aa1ae22d1baf611f5c12"

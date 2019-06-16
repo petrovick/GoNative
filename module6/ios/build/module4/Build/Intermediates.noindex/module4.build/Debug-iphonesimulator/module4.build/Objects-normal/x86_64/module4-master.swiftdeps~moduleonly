@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "5c9c9bfb0e2e7f932b69cfb62c3a6897"
+build_time: [1559441582, 55364000]
+inputs:
+  "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/RNPlaceholder.swift": [1559441359, 0]

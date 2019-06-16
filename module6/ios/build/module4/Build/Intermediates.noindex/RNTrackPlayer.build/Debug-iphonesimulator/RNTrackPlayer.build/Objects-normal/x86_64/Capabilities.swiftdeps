@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Capability"
+provides-nominal:
+- "13RNTrackPlayer10CapabilityO"
+provides-member:
+- ["13RNTrackPlayer10CapabilityO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "??"
+- "Capability"
+- "NSNumber"
+- "RemoteCommand"
+- "String"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["13RNTrackPlayer10CapabilityO", "=="]
+- ["13RNTrackPlayer10CapabilityO", "NSNumber"]
+- ["13RNTrackPlayer10CapabilityO", "RawValue"]
+- ["13RNTrackPlayer10CapabilityO", "RemoteCommand"]
+- ["13RNTrackPlayer10CapabilityO", "_Default_RawValue"]
+- !private ["13RNTrackPlayer10CapabilityO", "_findStringSwitchCase"]
+- ["13RNTrackPlayer10CapabilityO", "_rawHashValue"]
+- ["13RNTrackPlayer10CapabilityO", "deinit"]
+- ["13RNTrackPlayer10CapabilityO", "hash"]
+- ["13RNTrackPlayer10CapabilityO", "hashValue"]
+- ["13RNTrackPlayer10CapabilityO", "init"]
+- ["13RNTrackPlayer10CapabilityO", "jumpBackward"]
+- ["13RNTrackPlayer10CapabilityO", "jumpForward"]
+- ["13RNTrackPlayer10CapabilityO", "mapToPlayerCommand"]
+- ["13RNTrackPlayer10CapabilityO", "next"]
+- ["13RNTrackPlayer10CapabilityO", "pause"]
+- ["13RNTrackPlayer10CapabilityO", "play"]
+- ["13RNTrackPlayer10CapabilityO", "previous"]
+- ["13RNTrackPlayer10CapabilityO", "rawValue"]
+- ["13RNTrackPlayer10CapabilityO", "seek"]
+- ["13RNTrackPlayer10CapabilityO", "stop"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "jumpBackward"]
+- ["SQ", "jumpForward"]
+- ["SQ", "next"]
+- ["SQ", "pause"]
+- ["SQ", "play"]
+- ["SQ", "previous"]
+- ["SQ", "rawValue"]
+- ["SQ", "seek"]
+- ["SQ", "stop"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "jumpBackward"]
+- ["SH", "jumpForward"]
+- ["SH", "next"]
+- ["SH", "pause"]
+- ["SH", "play"]
+- ["SH", "previous"]
+- ["SH", "rawValue"]
+- ["SH", "seek"]
+- ["SH", "stop"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "jumpBackward"]
+- ["SY", "jumpForward"]
+- ["SY", "next"]
+- ["SY", "pause"]
+- ["SY", "play"]
+- ["SY", "previous"]
+- ["SY", "rawValue"]
+- ["SY", "seek"]
+- ["SY", "stop"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "changePlaybackPosition"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "next"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "pause"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "play"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "previous"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "skipBackward"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "skipForward"]
+- !private ["13RNTrackPlayer13RemoteCommandO", "stop"]
+depends-nominal:
+- "13RNTrackPlayer10CapabilityO"
+- "SQ"
+- "SH"
+- "SY"
+- !private "13RNTrackPlayer13RemoteCommandO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b30ead38c623bedae26bdaded1ae8f51"

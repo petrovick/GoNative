@@ -1,0 +1,26 @@
+dependencies: \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.cpp \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h

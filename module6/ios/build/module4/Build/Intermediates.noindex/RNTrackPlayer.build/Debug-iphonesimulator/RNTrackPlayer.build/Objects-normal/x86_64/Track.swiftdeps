@@ -1,0 +1,552 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Track"
+provides-nominal:
+- "13RNTrackPlayer5TrackC"
+provides-member:
+- ["13RNTrackPlayer5TrackC", ""]
+provides-dynamic-lookup:
+- "album"
+- "artist"
+- "artwork"
+- "title"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AVAudioTimePitchAlgorithm"
+- "AssignmentPrecedence"
+- "AudioItem"
+- "Bool"
+- "CastingPrecedence"
+- "Double"
+- "MPMediaItemArtwork"
+- "MediaURL"
+- "NSObject"
+- !private "PitchAlgorithm"
+- "SourceType"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "TimePitching"
+- "Track"
+- "UIImage"
+- !private "URLSession"
+- "Void"
+- !private "~="
+depends-member:
+- !private ["So25AVAudioTimePitchAlgorithma", "lowQualityZeroLatency"]
+- !private ["So25AVAudioTimePitchAlgorithma", "spectral"]
+- !private ["So25AVAudioTimePitchAlgorithma", "timeDomain"]
+- !private ["So25AVAudioTimePitchAlgorithma", "varispeed"]
+- !private ["13RNTrackPlayer9AudioItemP", "MediaURL"]
+- !private ["13RNTrackPlayer9AudioItemP", "PitchAlgorithm"]
+- !private ["13RNTrackPlayer9AudioItemP", "UIImage"]
+- !private ["13RNTrackPlayer9AudioItemP", "URLSession"]
+- ["13RNTrackPlayer9AudioItemP", ""]
+- !private ["13RNTrackPlayer9AudioItemP", "album"]
+- !private ["13RNTrackPlayer9AudioItemP", "artist"]
+- !private ["13RNTrackPlayer9AudioItemP", "artworkURL"]
+- !private ["13RNTrackPlayer9AudioItemP", "date"]
+- !private ["13RNTrackPlayer9AudioItemP", "desc"]
+- !private ["13RNTrackPlayer9AudioItemP", "duration"]
+- !private ["13RNTrackPlayer9AudioItemP", "genre"]
+- ["13RNTrackPlayer9AudioItemP", "getAlbumTitle"]
+- ["13RNTrackPlayer9AudioItemP", "getArtist"]
+- ["13RNTrackPlayer9AudioItemP", "getArtwork"]
+- ["13RNTrackPlayer9AudioItemP", "getPitchAlgorithmType"]
+- ["13RNTrackPlayer9AudioItemP", "getSourceType"]
+- ["13RNTrackPlayer9AudioItemP", "getSourceUrl"]
+- ["13RNTrackPlayer9AudioItemP", "getTitle"]
+- !private ["13RNTrackPlayer9AudioItemP", "id"]
+- !private ["13RNTrackPlayer9AudioItemP", "originalObject"]
+- !private ["13RNTrackPlayer9AudioItemP", "pitchAlgorithm"]
+- !private ["13RNTrackPlayer9AudioItemP", "title"]
+- !private ["13RNTrackPlayer9AudioItemP", "url"]
+- !private ["s7CVarArgP", "MediaURL"]
+- !private ["s7CVarArgP", "PitchAlgorithm"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "album"]
+- !private ["s7CVarArgP", "artist"]
+- !private ["s7CVarArgP", "artworkURL"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "desc"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "genre"]
+- ["s7CVarArgP", "getAlbumTitle"]
+- ["s7CVarArgP", "getArtist"]
+- ["s7CVarArgP", "getArtwork"]
+- ["s7CVarArgP", "getPitchAlgorithmType"]
+- ["s7CVarArgP", "getSourceType"]
+- ["s7CVarArgP", "getSourceUrl"]
+- ["s7CVarArgP", "getTitle"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "merging"]
+- !private ["s7CVarArgP", "originalObject"]
+- !private ["s7CVarArgP", "pitchAlgorithm"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "url"]
+- !private ["Sl", "merging"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "MediaURL"]
+- !private ["s28CustomDebugStringConvertibleP", "PitchAlgorithm"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "album"]
+- !private ["s28CustomDebugStringConvertibleP", "artist"]
+- !private ["s28CustomDebugStringConvertibleP", "artworkURL"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "desc"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "genre"]
+- ["s28CustomDebugStringConvertibleP", "getAlbumTitle"]
+- ["s28CustomDebugStringConvertibleP", "getArtist"]
+- ["s28CustomDebugStringConvertibleP", "getArtwork"]
+- ["s28CustomDebugStringConvertibleP", "getPitchAlgorithmType"]
+- ["s28CustomDebugStringConvertibleP", "getSourceType"]
+- ["s28CustomDebugStringConvertibleP", "getSourceUrl"]
+- ["s28CustomDebugStringConvertibleP", "getTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "merging"]
+- !private ["s28CustomDebugStringConvertibleP", "originalObject"]
+- !private ["s28CustomDebugStringConvertibleP", "pitchAlgorithm"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s17CustomReflectableP", "merging"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "MediaURL"]
+- !private ["s23CustomStringConvertibleP", "PitchAlgorithm"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "album"]
+- !private ["s23CustomStringConvertibleP", "artist"]
+- !private ["s23CustomStringConvertibleP", "artworkURL"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "desc"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "genre"]
+- ["s23CustomStringConvertibleP", "getAlbumTitle"]
+- ["s23CustomStringConvertibleP", "getArtist"]
+- ["s23CustomStringConvertibleP", "getArtwork"]
+- ["s23CustomStringConvertibleP", "getPitchAlgorithmType"]
+- ["s23CustomStringConvertibleP", "getSourceType"]
+- ["s23CustomStringConvertibleP", "getSourceUrl"]
+- ["s23CustomStringConvertibleP", "getTitle"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "merging"]
+- !private ["s23CustomStringConvertibleP", "originalObject"]
+- !private ["s23CustomStringConvertibleP", "pitchAlgorithm"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "merging"]
+- !private ["Se", "subscript"]
+- !private ["SD", "merging"]
+- !private ["SD", "subscript"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "merging"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "MediaURL"]
+- !private ["SQ", "PitchAlgorithm"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "URLSession"]
+- ["SQ", ""]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "album"]
+- !private ["SQ", "artist"]
+- !private ["SQ", "artworkURL"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "date"]
+- !private ["SQ", "desc"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "file"]
+- !private ["SQ", "genre"]
+- ["SQ", "getAlbumTitle"]
+- ["SQ", "getArtist"]
+- ["SQ", "getArtwork"]
+- ["SQ", "getPitchAlgorithmType"]
+- ["SQ", "getSourceType"]
+- ["SQ", "getSourceUrl"]
+- ["SQ", "getTitle"]
+- !private ["SQ", "id"]
+- !private ["SQ", "init"]
+- ["SQ", "linear"]
+- !private ["SQ", "lowQualityZeroLatency"]
+- !private ["SQ", "merging"]
+- ["SQ", "music"]
+- !private ["SQ", "originalObject"]
+- !private ["SQ", "pitchAlgorithm"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "spectral"]
+- !private ["SQ", "stream"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeDomain"]
+- !private ["SQ", "title"]
+- !private ["SQ", "url"]
+- !private ["SQ", "varispeed"]
+- ["SQ", "voice"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "merging"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "MediaURL"]
+- !private ["SH", "PitchAlgorithm"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "URLSession"]
+- ["SH", ""]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "album"]
+- !private ["SH", "artist"]
+- !private ["SH", "artworkURL"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "date"]
+- !private ["SH", "desc"]
+- !private ["SH", "duration"]
+- !private ["SH", "file"]
+- !private ["SH", "genre"]
+- ["SH", "getAlbumTitle"]
+- ["SH", "getArtist"]
+- ["SH", "getArtwork"]
+- ["SH", "getPitchAlgorithmType"]
+- ["SH", "getSourceType"]
+- ["SH", "getSourceUrl"]
+- ["SH", "getTitle"]
+- !private ["SH", "id"]
+- !private ["SH", "init"]
+- ["SH", "linear"]
+- !private ["SH", "lowQualityZeroLatency"]
+- !private ["SH", "merging"]
+- ["SH", "music"]
+- !private ["SH", "originalObject"]
+- !private ["SH", "pitchAlgorithm"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "spectral"]
+- !private ["SH", "stream"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeDomain"]
+- !private ["SH", "title"]
+- !private ["SH", "url"]
+- !private ["SH", "varispeed"]
+- ["SH", "voice"]
+- !private ["13RNTrackPlayer8MediaURLV", "init"]
+- !private ["13RNTrackPlayer8MediaURLV", "isLocal"]
+- !private ["13RNTrackPlayer8MediaURLV", "value"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "AVAudioTimePitchAlgorithm"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "MPMediaItemArtwork"]
+- ["So8NSObjectC", "MediaURL"]
+- !private ["So8NSObjectC", "PitchAlgorithm"]
+- ["So8NSObjectC", "SourceType"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "album"]
+- ["So8NSObjectC", "artist"]
+- ["So8NSObjectC", "artwork"]
+- ["So8NSObjectC", "artworkURL"]
+- !private ["So8NSObjectC", "dataTask"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "desc"]
+- ["So8NSObjectC", "duration"]
+- ["So8NSObjectC", "genre"]
+- ["So8NSObjectC", "getAlbumTitle"]
+- ["So8NSObjectC", "getArtist"]
+- ["So8NSObjectC", "getArtwork"]
+- ["So8NSObjectC", "getPitchAlgorithmType"]
+- ["So8NSObjectC", "getSourceType"]
+- ["So8NSObjectC", "getSourceUrl"]
+- ["So8NSObjectC", "getTitle"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "originalObject"]
+- ["So8NSObjectC", "pitchAlgorithm"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "skipped"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "toObject"]
+- ["So8NSObjectC", "updateMetadata"]
+- ["So8NSObjectC", "url"]
+- !private ["So8NSObjectP", "MediaURL"]
+- !private ["So8NSObjectP", "PitchAlgorithm"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "URLSession"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "album"]
+- !private ["So8NSObjectP", "artist"]
+- !private ["So8NSObjectP", "artworkURL"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "desc"]
+- !private ["So8NSObjectP", "duration"]
+- !private ["So8NSObjectP", "genre"]
+- ["So8NSObjectP", "getAlbumTitle"]
+- ["So8NSObjectP", "getArtist"]
+- ["So8NSObjectP", "getArtwork"]
+- ["So8NSObjectP", "getPitchAlgorithmType"]
+- ["So8NSObjectP", "getSourceType"]
+- ["So8NSObjectP", "getSourceUrl"]
+- ["So8NSObjectP", "getTitle"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "originalObject"]
+- !private ["So8NSObjectP", "pitchAlgorithm"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "url"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["13RNTrackPlayer14PitchAlgorithmO", "deinit"]
+- ["13RNTrackPlayer14PitchAlgorithmO", "linear"]
+- ["13RNTrackPlayer14PitchAlgorithmO", "music"]
+- !private ["13RNTrackPlayer14PitchAlgorithmO", "rawValue"]
+- ["13RNTrackPlayer14PitchAlgorithmO", "voice"]
+- !private ["So19NSProgressReportingP", "resume"]
+- ["SY", "linear"]
+- !private ["SY", "lowQualityZeroLatency"]
+- ["SY", "music"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "spectral"]
+- !private ["SY", "timeDomain"]
+- !private ["SY", "varispeed"]
+- ["SY", "voice"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["ST", "merging"]
+- !private ["ST", "subscript"]
+- !private ["13RNTrackPlayer10SourceTypeO", "file"]
+- !private ["13RNTrackPlayer10SourceTypeO", "stream"]
+- !private ["13RNTrackPlayer12TimePitchingP", "MediaURL"]
+- !private ["13RNTrackPlayer12TimePitchingP", "PitchAlgorithm"]
+- !private ["13RNTrackPlayer12TimePitchingP", "UIImage"]
+- !private ["13RNTrackPlayer12TimePitchingP", "URLSession"]
+- ["13RNTrackPlayer12TimePitchingP", ""]
+- !private ["13RNTrackPlayer12TimePitchingP", "album"]
+- !private ["13RNTrackPlayer12TimePitchingP", "artist"]
+- !private ["13RNTrackPlayer12TimePitchingP", "artworkURL"]
+- !private ["13RNTrackPlayer12TimePitchingP", "date"]
+- !private ["13RNTrackPlayer12TimePitchingP", "desc"]
+- !private ["13RNTrackPlayer12TimePitchingP", "duration"]
+- !private ["13RNTrackPlayer12TimePitchingP", "genre"]
+- ["13RNTrackPlayer12TimePitchingP", "getAlbumTitle"]
+- ["13RNTrackPlayer12TimePitchingP", "getArtist"]
+- ["13RNTrackPlayer12TimePitchingP", "getArtwork"]
+- ["13RNTrackPlayer12TimePitchingP", "getPitchAlgorithmType"]
+- ["13RNTrackPlayer12TimePitchingP", "getSourceType"]
+- ["13RNTrackPlayer12TimePitchingP", "getSourceUrl"]
+- ["13RNTrackPlayer12TimePitchingP", "getTitle"]
+- !private ["13RNTrackPlayer12TimePitchingP", "id"]
+- !private ["13RNTrackPlayer12TimePitchingP", "originalObject"]
+- !private ["13RNTrackPlayer12TimePitchingP", "pitchAlgorithm"]
+- !private ["13RNTrackPlayer12TimePitchingP", "title"]
+- !private ["13RNTrackPlayer12TimePitchingP", "url"]
+- ["13RNTrackPlayer5TrackC", "AVAudioTimePitchAlgorithm"]
+- ["13RNTrackPlayer5TrackC", "Bool"]
+- ["13RNTrackPlayer5TrackC", "Double"]
+- ["13RNTrackPlayer5TrackC", "MPMediaItemArtwork"]
+- ["13RNTrackPlayer5TrackC", "MediaURL"]
+- !private ["13RNTrackPlayer5TrackC", "PitchAlgorithm"]
+- ["13RNTrackPlayer5TrackC", "SourceType"]
+- ["13RNTrackPlayer5TrackC", "String"]
+- ["13RNTrackPlayer5TrackC", "UIImage"]
+- !private ["13RNTrackPlayer5TrackC", "URLSession"]
+- ["13RNTrackPlayer5TrackC", "Void"]
+- ["13RNTrackPlayer5TrackC", "album"]
+- ["13RNTrackPlayer5TrackC", "artist"]
+- ["13RNTrackPlayer5TrackC", "artwork"]
+- ["13RNTrackPlayer5TrackC", "artworkURL"]
+- ["13RNTrackPlayer5TrackC", "date"]
+- ["13RNTrackPlayer5TrackC", "deinit"]
+- ["13RNTrackPlayer5TrackC", "desc"]
+- ["13RNTrackPlayer5TrackC", "duration"]
+- ["13RNTrackPlayer5TrackC", "genre"]
+- ["13RNTrackPlayer5TrackC", "getAlbumTitle"]
+- ["13RNTrackPlayer5TrackC", "getArtist"]
+- ["13RNTrackPlayer5TrackC", "getArtwork"]
+- ["13RNTrackPlayer5TrackC", "getPitchAlgorithmType"]
+- ["13RNTrackPlayer5TrackC", "getSourceType"]
+- ["13RNTrackPlayer5TrackC", "getSourceUrl"]
+- ["13RNTrackPlayer5TrackC", "getTitle"]
+- ["13RNTrackPlayer5TrackC", "id"]
+- ["13RNTrackPlayer5TrackC", "init"]
+- !private ["13RNTrackPlayer5TrackC", "originalObject"]
+- ["13RNTrackPlayer5TrackC", "pitchAlgorithm"]
+- ["13RNTrackPlayer5TrackC", "skipped"]
+- ["13RNTrackPlayer5TrackC", "title"]
+- ["13RNTrackPlayer5TrackC", "toObject"]
+- ["13RNTrackPlayer5TrackC", "updateMetadata"]
+- ["13RNTrackPlayer5TrackC", "url"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lowQualityZeroLatency"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "merging"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "spectral"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeDomain"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "varispeed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MediaURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PitchAlgorithm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "album"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artworkURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "genre"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getAlbumTitle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getArtist"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getArtwork"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getPitchAlgorithmType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSourceType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSourceUrl"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pitchAlgorithm"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "lowQualityZeroLatency"]
+- !private ["s21_ObjectiveCBridgeableP", "merging"]
+- !private ["s21_ObjectiveCBridgeableP", "spectral"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeDomain"]
+- !private ["s21_ObjectiveCBridgeableP", "varispeed"]
+- !private ["s20_SwiftNewtypeWrapperP", "lowQualityZeroLatency"]
+- !private ["s20_SwiftNewtypeWrapperP", "spectral"]
+- !private ["s20_SwiftNewtypeWrapperP", "timeDomain"]
+- !private ["s20_SwiftNewtypeWrapperP", "varispeed"]
+depends-nominal:
+- !private "So25AVAudioTimePitchAlgorithma"
+- "13RNTrackPlayer9AudioItemP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "13RNTrackPlayer8MediaURLV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- "13RNTrackPlayer14PitchAlgorithmO"
+- !private "So19NSProgressReportingP"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "13RNTrackPlayer10SourceTypeO"
+- "13RNTrackPlayer12TimePitchingP"
+- "13RNTrackPlayer5TrackC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "10Foundation3URLV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0da0741228bb53b5e058d0e764d35145"

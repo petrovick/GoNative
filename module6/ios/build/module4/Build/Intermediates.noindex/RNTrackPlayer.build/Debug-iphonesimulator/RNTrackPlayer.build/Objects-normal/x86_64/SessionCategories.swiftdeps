@@ -1,0 +1,412 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SessionCategory"
+- "SessionCategoryOptions"
+- "SessionCategoryMode"
+provides-nominal:
+- "13RNTrackPlayer15SessionCategoryO"
+- "13RNTrackPlayer22SessionCategoryOptionsO"
+- "13RNTrackPlayer19SessionCategoryModeO"
+provides-member:
+- ["13RNTrackPlayer15SessionCategoryO", ""]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", ""]
+- ["13RNTrackPlayer19SessionCategoryModeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AVAudioSession"
+- "SessionCategory"
+- "SessionCategoryMode"
+- "SessionCategoryOptions"
+- "String"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["So14AVAudioSessionC", "Category"]
+- ["So14AVAudioSessionC", "CategoryOptions"]
+- ["So14AVAudioSessionC", "Mode"]
+- ["13RNTrackPlayer12AudioSessionP", "Category"]
+- ["13RNTrackPlayer12AudioSessionP", "CategoryOptions"]
+- ["13RNTrackPlayer12AudioSessionP", "Mode"]
+- ["s7CVarArgP", "Category"]
+- ["s7CVarArgP", "CategoryOptions"]
+- ["s7CVarArgP", "Mode"]
+- !private ["So22AVAudioSessionCategorya", "ambient"]
+- !private ["So22AVAudioSessionCategorya", "multiRoute"]
+- !private ["So22AVAudioSessionCategorya", "playAndRecord"]
+- !private ["So22AVAudioSessionCategorya", "playback"]
+- !private ["So22AVAudioSessionCategorya", "soloAmbient"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "allowAirPlay"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "allowBluetooth"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "allowBluetoothA2DP"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "defaultToSpeaker"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "duckOthers"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["So29AVAudioSessionCategoryOptionsV", "mixWithOthers"]
+- ["s28CustomDebugStringConvertibleP", "Category"]
+- ["s28CustomDebugStringConvertibleP", "CategoryOptions"]
+- ["s28CustomDebugStringConvertibleP", "Mode"]
+- !private ["s28CustomDebugStringConvertibleP", "allowAirPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "allowBluetooth"]
+- !private ["s28CustomDebugStringConvertibleP", "allowBluetoothA2DP"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultToSpeaker"]
+- !private ["s28CustomDebugStringConvertibleP", "duckOthers"]
+- !private ["s28CustomDebugStringConvertibleP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s28CustomDebugStringConvertibleP", "mixWithOthers"]
+- !private ["s17CustomReflectableP", "allowAirPlay"]
+- !private ["s17CustomReflectableP", "allowBluetooth"]
+- !private ["s17CustomReflectableP", "allowBluetoothA2DP"]
+- !private ["s17CustomReflectableP", "defaultToSpeaker"]
+- !private ["s17CustomReflectableP", "duckOthers"]
+- !private ["s17CustomReflectableP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s17CustomReflectableP", "mixWithOthers"]
+- ["s23CustomStringConvertibleP", "Category"]
+- ["s23CustomStringConvertibleP", "CategoryOptions"]
+- ["s23CustomStringConvertibleP", "Mode"]
+- !private ["Se", "allowAirPlay"]
+- !private ["Se", "allowBluetooth"]
+- !private ["Se", "allowBluetoothA2DP"]
+- !private ["Se", "defaultToSpeaker"]
+- !private ["Se", "duckOthers"]
+- !private ["Se", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["Se", "mixWithOthers"]
+- !private ["SE", "allowAirPlay"]
+- !private ["SE", "allowBluetooth"]
+- !private ["SE", "allowBluetoothA2DP"]
+- !private ["SE", "defaultToSpeaker"]
+- !private ["SE", "duckOthers"]
+- !private ["SE", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["SE", "mixWithOthers"]
+- ["SQ", "=="]
+- ["SQ", "Category"]
+- ["SQ", "CategoryOptions"]
+- ["SQ", "Mode"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "allowAirPlay"]
+- ["SQ", "allowBluetooth"]
+- ["SQ", "allowBluetoothA2DP"]
+- ["SQ", "ambient"]
+- ["SQ", "default"]
+- ["SQ", "defaultToSpeaker"]
+- ["SQ", "duckOthers"]
+- ["SQ", "gameChat"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "interruptSpokenAudioAndMixWithOthers"]
+- ["SQ", "measurement"]
+- ["SQ", "mixWithOthers"]
+- ["SQ", "moviePlayback"]
+- ["SQ", "multiRoute"]
+- ["SQ", "playAndRecord"]
+- ["SQ", "playback"]
+- ["SQ", "rawValue"]
+- ["SQ", "soloAmbient"]
+- ["SQ", "spokenAudio"]
+- ["SQ", "videoChat"]
+- ["SQ", "videoRecording"]
+- ["SQ", "voiceChat"]
+- ["SQ", "voicePrompt"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowAirPlay"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowBluetooth"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowBluetoothA2DP"]
+- !private ["s25ExpressibleByArrayLiteralP", "defaultToSpeaker"]
+- !private ["s25ExpressibleByArrayLiteralP", "duckOthers"]
+- !private ["s25ExpressibleByArrayLiteralP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s25ExpressibleByArrayLiteralP", "mixWithOthers"]
+- !private ["s23ExpressibleByNilLiteralP", "allowAirPlay"]
+- !private ["s23ExpressibleByNilLiteralP", "allowBluetooth"]
+- !private ["s23ExpressibleByNilLiteralP", "allowBluetoothA2DP"]
+- !private ["s23ExpressibleByNilLiteralP", "defaultToSpeaker"]
+- !private ["s23ExpressibleByNilLiteralP", "duckOthers"]
+- !private ["s23ExpressibleByNilLiteralP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s23ExpressibleByNilLiteralP", "mixWithOthers"]
+- ["SH", "=="]
+- ["SH", "Category"]
+- ["SH", "CategoryOptions"]
+- ["SH", "Mode"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "allowAirPlay"]
+- ["SH", "allowBluetooth"]
+- ["SH", "allowBluetoothA2DP"]
+- ["SH", "ambient"]
+- ["SH", "default"]
+- ["SH", "defaultToSpeaker"]
+- ["SH", "duckOthers"]
+- ["SH", "gameChat"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "interruptSpokenAudioAndMixWithOthers"]
+- ["SH", "measurement"]
+- ["SH", "mixWithOthers"]
+- ["SH", "moviePlayback"]
+- ["SH", "multiRoute"]
+- ["SH", "playAndRecord"]
+- ["SH", "playback"]
+- ["SH", "rawValue"]
+- ["SH", "soloAmbient"]
+- ["SH", "spokenAudio"]
+- ["SH", "videoChat"]
+- ["SH", "videoRecording"]
+- ["SH", "voiceChat"]
+- ["SH", "voicePrompt"]
+- !private ["So18AVAudioSessionModea", "default"]
+- !private ["So18AVAudioSessionModea", "gameChat"]
+- !private ["So18AVAudioSessionModea", "measurement"]
+- !private ["So18AVAudioSessionModea", "moviePlayback"]
+- !private ["So18AVAudioSessionModea", "spokenAudio"]
+- !private ["So18AVAudioSessionModea", "videoChat"]
+- !private ["So18AVAudioSessionModea", "videoRecording"]
+- !private ["So18AVAudioSessionModea", "voiceChat"]
+- !private ["So18AVAudioSessionModea", "voicePrompt"]
+- ["So8NSObjectC", "Category"]
+- ["So8NSObjectC", "CategoryOptions"]
+- ["So8NSObjectC", "Mode"]
+- ["So8NSObjectP", "Category"]
+- ["So8NSObjectP", "CategoryOptions"]
+- ["So8NSObjectP", "Mode"]
+- !private ["s9OptionSetP", "allowAirPlay"]
+- !private ["s9OptionSetP", "allowBluetooth"]
+- !private ["s9OptionSetP", "allowBluetoothA2DP"]
+- !private ["s9OptionSetP", "defaultToSpeaker"]
+- !private ["s9OptionSetP", "duckOthers"]
+- !private ["s9OptionSetP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s9OptionSetP", "mixWithOthers"]
+- !private ["Sq", "allowAirPlay"]
+- !private ["Sq", "allowBluetooth"]
+- !private ["Sq", "allowBluetoothA2DP"]
+- !private ["Sq", "defaultToSpeaker"]
+- !private ["Sq", "duckOthers"]
+- !private ["Sq", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["Sq", "mixWithOthers"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "allowAirPlay"]
+- ["SY", "allowBluetooth"]
+- ["SY", "allowBluetoothA2DP"]
+- ["SY", "ambient"]
+- ["SY", "default"]
+- ["SY", "defaultToSpeaker"]
+- ["SY", "duckOthers"]
+- ["SY", "gameChat"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "interruptSpokenAudioAndMixWithOthers"]
+- ["SY", "measurement"]
+- ["SY", "mixWithOthers"]
+- ["SY", "moviePlayback"]
+- ["SY", "multiRoute"]
+- ["SY", "playAndRecord"]
+- ["SY", "playback"]
+- ["SY", "rawValue"]
+- ["SY", "soloAmbient"]
+- ["SY", "spokenAudio"]
+- ["SY", "videoChat"]
+- ["SY", "videoRecording"]
+- ["SY", "voiceChat"]
+- ["SY", "voicePrompt"]
+- ["13RNTrackPlayer15SessionCategoryO", "=="]
+- ["13RNTrackPlayer15SessionCategoryO", "AVAudioSession"]
+- ["13RNTrackPlayer15SessionCategoryO", "RawValue"]
+- ["13RNTrackPlayer15SessionCategoryO", "_Default_RawValue"]
+- !private ["13RNTrackPlayer15SessionCategoryO", "_findStringSwitchCase"]
+- ["13RNTrackPlayer15SessionCategoryO", "_rawHashValue"]
+- ["13RNTrackPlayer15SessionCategoryO", "ambient"]
+- ["13RNTrackPlayer15SessionCategoryO", "deinit"]
+- ["13RNTrackPlayer15SessionCategoryO", "hash"]
+- ["13RNTrackPlayer15SessionCategoryO", "hashValue"]
+- ["13RNTrackPlayer15SessionCategoryO", "init"]
+- ["13RNTrackPlayer15SessionCategoryO", "mapConfigToAVAudioSessionCategory"]
+- ["13RNTrackPlayer15SessionCategoryO", "multiRoute"]
+- ["13RNTrackPlayer15SessionCategoryO", "playAndRecord"]
+- ["13RNTrackPlayer15SessionCategoryO", "playback"]
+- ["13RNTrackPlayer15SessionCategoryO", "rawValue"]
+- ["13RNTrackPlayer15SessionCategoryO", "soloAmbient"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "=="]
+- ["13RNTrackPlayer19SessionCategoryModeO", "AVAudioSession"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "RawValue"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "_Default_RawValue"]
+- !private ["13RNTrackPlayer19SessionCategoryModeO", "_findStringSwitchCase"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "_rawHashValue"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "default"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "deinit"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "gameChat"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "hash"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "hashValue"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "init"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "mapConfigToAVAudioSessionCategoryMode"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "measurement"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "moviePlayback"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "rawValue"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "spokenAudio"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "videoChat"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "videoRecording"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "voiceChat"]
+- ["13RNTrackPlayer19SessionCategoryModeO", "voicePrompt"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "=="]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "AVAudioSession"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "RawValue"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "_Default_RawValue"]
+- !private ["13RNTrackPlayer22SessionCategoryOptionsO", "_findStringSwitchCase"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "_rawHashValue"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "allowAirPlay"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "allowBluetooth"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "allowBluetoothA2DP"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "defaultToSpeaker"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "deinit"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "duckOthers"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "hash"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "hashValue"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "init"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "interruptSpokenAudioAndMixWithOthers"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "mapConfigToAVAudioSessionCategoryOptions"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "mixWithOthers"]
+- ["13RNTrackPlayer22SessionCategoryOptionsO", "rawValue"]
+- !private ["s10SetAlgebraP", "allowAirPlay"]
+- !private ["s10SetAlgebraP", "allowBluetooth"]
+- !private ["s10SetAlgebraP", "allowBluetoothA2DP"]
+- !private ["s10SetAlgebraP", "defaultToSpeaker"]
+- !private ["s10SetAlgebraP", "duckOthers"]
+- !private ["s10SetAlgebraP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s10SetAlgebraP", "mixWithOthers"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "ambient"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "default"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "gameChat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "measurement"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "moviePlayback"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "multiRoute"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "playAndRecord"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "playback"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "soloAmbient"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "spokenAudio"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "videoChat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "videoRecording"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "voiceChat"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "voicePrompt"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Category"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CategoryOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Mode"]
+- !private ["s21_ObjectiveCBridgeableP", "allowAirPlay"]
+- !private ["s21_ObjectiveCBridgeableP", "allowBluetooth"]
+- !private ["s21_ObjectiveCBridgeableP", "allowBluetoothA2DP"]
+- !private ["s21_ObjectiveCBridgeableP", "ambient"]
+- !private ["s21_ObjectiveCBridgeableP", "default"]
+- !private ["s21_ObjectiveCBridgeableP", "defaultToSpeaker"]
+- !private ["s21_ObjectiveCBridgeableP", "duckOthers"]
+- !private ["s21_ObjectiveCBridgeableP", "gameChat"]
+- !private ["s21_ObjectiveCBridgeableP", "interruptSpokenAudioAndMixWithOthers"]
+- !private ["s21_ObjectiveCBridgeableP", "measurement"]
+- !private ["s21_ObjectiveCBridgeableP", "mixWithOthers"]
+- !private ["s21_ObjectiveCBridgeableP", "moviePlayback"]
+- !private ["s21_ObjectiveCBridgeableP", "multiRoute"]
+- !private ["s21_ObjectiveCBridgeableP", "playAndRecord"]
+- !private ["s21_ObjectiveCBridgeableP", "playback"]
+- !private ["s21_ObjectiveCBridgeableP", "soloAmbient"]
+- !private ["s21_ObjectiveCBridgeableP", "spokenAudio"]
+- !private ["s21_ObjectiveCBridgeableP", "videoChat"]
+- !private ["s21_ObjectiveCBridgeableP", "videoRecording"]
+- !private ["s21_ObjectiveCBridgeableP", "voiceChat"]
+- !private ["s21_ObjectiveCBridgeableP", "voicePrompt"]
+- !private ["s20_SwiftNewtypeWrapperP", "ambient"]
+- !private ["s20_SwiftNewtypeWrapperP", "default"]
+- !private ["s20_SwiftNewtypeWrapperP", "gameChat"]
+- !private ["s20_SwiftNewtypeWrapperP", "measurement"]
+- !private ["s20_SwiftNewtypeWrapperP", "moviePlayback"]
+- !private ["s20_SwiftNewtypeWrapperP", "multiRoute"]
+- !private ["s20_SwiftNewtypeWrapperP", "playAndRecord"]
+- !private ["s20_SwiftNewtypeWrapperP", "playback"]
+- !private ["s20_SwiftNewtypeWrapperP", "soloAmbient"]
+- !private ["s20_SwiftNewtypeWrapperP", "spokenAudio"]
+- !private ["s20_SwiftNewtypeWrapperP", "videoChat"]
+- !private ["s20_SwiftNewtypeWrapperP", "videoRecording"]
+- !private ["s20_SwiftNewtypeWrapperP", "voiceChat"]
+- !private ["s20_SwiftNewtypeWrapperP", "voicePrompt"]
+depends-nominal:
+- "So14AVAudioSessionC"
+- "13RNTrackPlayer12AudioSessionP"
+- "s7CVarArgP"
+- !private "So22AVAudioSessionCategorya"
+- !private "So29AVAudioSessionCategoryOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "So18AVAudioSessionModea"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "SY"
+- "13RNTrackPlayer15SessionCategoryO"
+- "13RNTrackPlayer19SessionCategoryModeO"
+- "13RNTrackPlayer22SessionCategoryOptionsO"
+- !private "s10SetAlgebraP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8bc905535b3cd41d2534bc2a281ee2eb"

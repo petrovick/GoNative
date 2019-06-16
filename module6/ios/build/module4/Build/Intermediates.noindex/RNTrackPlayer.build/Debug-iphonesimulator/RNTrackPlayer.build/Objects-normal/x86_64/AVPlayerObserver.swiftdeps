@@ -1,0 +1,405 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AVPlayerObserverDelegate"
+- "AVPlayerObserver"
+provides-nominal:
+- "13RNTrackPlayer24AVPlayerObserverDelegateP"
+- "13RNTrackPlayer16AVPlayerObserverC"
+provides-member:
+- ["13RNTrackPlayer24AVPlayerObserverDelegateP", ""]
+- ["13RNTrackPlayer16AVPlayerObserverC", ""]
+provides-dynamic-lookup:
+- "observeValue"
+depends-top-level:
+- !private "=="
+- "AVPlayer"
+- "AVPlayerObserver"
+- "AVPlayerObserverDelegate"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "DispatchQueue"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NSKeyValueChangeKey"
+- "NSKeyValueObservingOptions"
+- !private "NSNumber"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "UnsafeMutableRawPointer"
+- !private "~="
+depends-member:
+- ["So8AVPlayerC", "Status"]
+- ["So8AVPlayerC", "TimeControlStatus"]
+- !private ["So8AVPlayerC", "addObserver"]
+- !private ["So8AVPlayerC", "removeObserver"]
+- ["So8AVPlayerC", "status"]
+- ["So8AVPlayerC", "timeControlStatus"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "AVPlayer"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "AVPlayerKeyPath"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "AVPlayerObserver"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "AVPlayerObserverDelegate"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "Bool"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "DispatchQueue"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "NSKeyValueChangeKey"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "NSKeyValueObservingOptions"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "NSNumber"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "String"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "UnsafeMutableRawPointer"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "context"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "deinit"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "delegate"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "handleStatusChange"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "handleTimeControlStatusChange"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "init"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "isObserving"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "main"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "observeValue"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "player"]
+- ["13RNTrackPlayer16AVPlayerObserverC", "startObserving"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "statusChangeOptions"]
+- !private ["13RNTrackPlayer16AVPlayerObserverC", "timeControlStatusChangeOptions"]
+- ["13RNTrackPlayer24AVPlayerObserverDelegateP", "AVPlayer"]
+- ["13RNTrackPlayer24AVPlayerObserverDelegateP", "player"]
+- ["s7CVarArgP", "AVPlayer"]
+- !private ["s7CVarArgP", "AVPlayerKeyPath"]
+- !private ["s7CVarArgP", "AVPlayerObserver"]
+- ["s7CVarArgP", "Status"]
+- ["s7CVarArgP", "TimeControlStatus"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "context"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "handleStatusChange"]
+- !private ["s7CVarArgP", "handleTimeControlStatusChange"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "intValue"]
+- !private ["s7CVarArgP", "isObserving"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "observeValue"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "removeObserver"]
+- ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "statusChangeOptions"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s7CVarArgP", "timeControlStatus"]
+- !private ["s7CVarArgP", "timeControlStatusChangeOptions"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "newKey"]
+- ["s28CustomDebugStringConvertibleP", "AVPlayer"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerKeyPath"]
+- !private ["s28CustomDebugStringConvertibleP", "AVPlayerObserver"]
+- ["s28CustomDebugStringConvertibleP", "Status"]
+- ["s28CustomDebugStringConvertibleP", "TimeControlStatus"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "context"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "handleStatusChange"]
+- !private ["s28CustomDebugStringConvertibleP", "handleTimeControlStatusChange"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "isObserving"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "observeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "statusChangeOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "timeControlStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "timeControlStatusChangeOptions"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "AVPlayer"]
+- !private ["s23CustomStringConvertibleP", "AVPlayerKeyPath"]
+- !private ["s23CustomStringConvertibleP", "AVPlayerObserver"]
+- ["s23CustomStringConvertibleP", "Status"]
+- ["s23CustomStringConvertibleP", "TimeControlStatus"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "context"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "handleStatusChange"]
+- !private ["s23CustomStringConvertibleP", "handleTimeControlStatusChange"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "isObserving"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "observeValue"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "statusChangeOptions"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "timeControlStatus"]
+- !private ["s23CustomStringConvertibleP", "timeControlStatusChangeOptions"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "subscript"]
+- ["SQ", "AVPlayer"]
+- !private ["SQ", "AVPlayerKeyPath"]
+- !private ["SQ", "AVPlayerObserver"]
+- ["SQ", "Status"]
+- ["SQ", "TimeControlStatus"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "async"]
+- !private ["SQ", "context"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "handleStatusChange"]
+- !private ["SQ", "handleTimeControlStatusChange"]
+- !private ["SQ", "init"]
+- ["SQ", "initial"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "isObserving"]
+- ["SQ", "main"]
+- ["SQ", "new"]
+- !private ["SQ", "newKey"]
+- !private ["SQ", "observeValue"]
+- !private ["SQ", "player"]
+- !private ["SQ", "removeObserver"]
+- ["SQ", "status"]
+- !private ["SQ", "statusChangeOptions"]
+- !private ["SQ", "subscript"]
+- ["SQ", "timeControlStatus"]
+- !private ["SQ", "timeControlStatusChangeOptions"]
+- !private ["SQ", "unknown"]
+- ["s25ExpressibleByArrayLiteralP", "initial"]
+- ["s25ExpressibleByArrayLiteralP", "new"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- ["SH", "AVPlayer"]
+- !private ["SH", "AVPlayerKeyPath"]
+- !private ["SH", "AVPlayerObserver"]
+- ["SH", "Status"]
+- ["SH", "TimeControlStatus"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "async"]
+- !private ["SH", "context"]
+- !private ["SH", "delegate"]
+- !private ["SH", "handleStatusChange"]
+- !private ["SH", "handleTimeControlStatusChange"]
+- !private ["SH", "init"]
+- !private ["SH", "intValue"]
+- !private ["SH", "isObserving"]
+- ["SH", "main"]
+- !private ["SH", "newKey"]
+- !private ["SH", "observeValue"]
+- !private ["SH", "player"]
+- !private ["SH", "removeObserver"]
+- ["SH", "status"]
+- !private ["SH", "statusChangeOptions"]
+- !private ["SH", "subscript"]
+- ["SH", "timeControlStatus"]
+- !private ["SH", "timeControlStatusChangeOptions"]
+- !private ["SH", "unknown"]
+- !private ["SD5IndexV", "newKey"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So19NSKeyValueChangeKeya", "newKey"]
+- ["So26NSKeyValueObservingOptionsV", "initial"]
+- ["So26NSKeyValueObservingOptionsV", "new"]
+- !private ["So8NSNumberC", "intValue"]
+- ["So8NSObjectC", "AVPlayer"]
+- !private ["So8NSObjectC", "AVPlayerKeyPath"]
+- !private ["So8NSObjectC", "AVPlayerObserver"]
+- ["So8NSObjectC", "AVPlayerObserverDelegate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "DispatchQueue"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "NSKeyValueObservingOptions"]
+- !private ["So8NSObjectC", "NSNumber"]
+- ["So8NSObjectC", "Status"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeControlStatus"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "context"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "handleStatusChange"]
+- ["So8NSObjectC", "handleTimeControlStatusChange"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- ["So8NSObjectC", "isObserving"]
+- ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "observeValue"]
+- ["So8NSObjectC", "player"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "startObserving"]
+- ["So8NSObjectC", "status"]
+- ["So8NSObjectC", "statusChangeOptions"]
+- ["So8NSObjectC", "timeControlStatus"]
+- ["So8NSObjectC", "timeControlStatusChangeOptions"]
+- ["So8NSObjectP", "AVPlayer"]
+- !private ["So8NSObjectP", "AVPlayerKeyPath"]
+- !private ["So8NSObjectP", "AVPlayerObserver"]
+- ["So8NSObjectP", "Status"]
+- ["So8NSObjectP", "TimeControlStatus"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "context"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "handleStatusChange"]
+- !private ["So8NSObjectP", "handleTimeControlStatusChange"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- !private ["So8NSObjectP", "isObserving"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "observeValue"]
+- !private ["So8NSObjectP", "player"]
+- !private ["So8NSObjectP", "removeObserver"]
+- ["So8NSObjectP", "status"]
+- !private ["So8NSObjectP", "statusChangeOptions"]
+- ["So8NSObjectP", "timeControlStatus"]
+- !private ["So8NSObjectP", "timeControlStatusChangeOptions"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "main"]
+- ["s9OptionSetP", "initial"]
+- ["s9OptionSetP", "new"]
+- !private ["SY", "init"]
+- ["SY", "initial"]
+- ["SY", "new"]
+- !private ["SY", "newKey"]
+- !private ["SY", "unknown"]
+- !private ["ST", "subscript"]
+- ["s10SetAlgebraP", "initial"]
+- ["s10SetAlgebraP", "new"]
+- !private ["So14AVPlayerStatusV", "init"]
+- !private ["So14AVPlayerStatusV", "unknown"]
+- !private ["So25AVPlayerTimeControlStatusV", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "newKey"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerKeyPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Status"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TimeControlStatus"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "context"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleStatusChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "handleTimeControlStatusChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isObserving"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observeValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusChangeOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeControlStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeControlStatusChangeOptions"]
+- !private ["s21_ObjectiveCBridgeableP", "newKey"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "newKey"]
+depends-nominal:
+- "So8AVPlayerC"
+- "13RNTrackPlayer16AVPlayerObserverC"
+- "13RNTrackPlayer24AVPlayerObserverDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- "So18OS_dispatch_objectC"
+- "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "SH"
+- !private "SD5IndexV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSKeyValueChangeKeya"
+- "So26NSKeyValueObservingOptionsV"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So7NSValueC"
+- "So9OS_objectC"
+- "s9OptionSetP"
+- "SY"
+- !private "ST"
+- "s10SetAlgebraP"
+- !private "So14AVPlayerStatusV"
+- !private "So25AVPlayerTimeControlStatusV"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Volumes/iMacProjetos/Curso/Rocketseat/GoNative/module4/ios/build/module4/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a205942f4478eb9f82417596d398964e"
