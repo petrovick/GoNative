@@ -25,94 +25,6 @@ export const INITIAL_STATE = Immutable({
         price: 39.99
       },
       quantity: 1
-    },
-    {
-      product: {
-        id: 2,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 3,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 4,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 5,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 6,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 7,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 8,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
-    },
-    {
-      product: {
-        id: 9,
-        name: "Camiseta Primo Tipper",
-        brand: "Rip Curl",
-        image:
-          "https://t-static.dafiti.com.br/weG0u9eKZ4KBV-G0XFOQ5hoY4eI=/fit-in/427x620/dafitistatic-a.akamaihd.net%2fp%2frip-curl-camiseta-rip-curl-primo-tipper-preto-8138-3441052-1-product.jpg",
-        price: 39.99
-      },
-      quantity: 1
     }
   ]
 });
@@ -126,8 +38,24 @@ export const reducer = createReducer(INITIAL_STATE, {
     }
   },
   [Types.REMOVE_PRODUCT]: (state, { product }) => {
-    const productIndex = state.data.findIndex(prod => prod.id == product.id);
-    state.merge({ data: state.data.splice(productIndex, 1) });
+    //const productIndex = state.data.findIndex(prod => prod.id == product.id);
+    const multableData = Immutable.asMutable(state.data);
+    console.tron.log("product");
+    console.tron.log(product);
+
+    const auxData = multableData.filter(cart => {
+      return cart.product.id !== product.product.id;
+    });
+    console.tron.log("auxData");
+    console.tron.log(auxData);
+
+    if (auxData) {
+      return state.merge({
+        data: auxData
+      });
+    } else {
+      return state;
+    }
   },
   [Types.ADD_QUANTITY]: (state, { cartItem }) => {
     const cart = state.data.find(

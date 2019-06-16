@@ -1,0 +1,3 @@
+rootProject.name = 'module5'
+
+include ':app'
